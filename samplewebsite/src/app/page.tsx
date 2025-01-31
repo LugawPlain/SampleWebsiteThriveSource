@@ -161,7 +161,9 @@ this forces the page using 301 htpp to redirect to a google search query also as
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={""}
+          value={
+            "First I would respond and acknowledge the report and the reporter regarding the issue to ensure that the report is heard and being taken care of, SEcondly i would investigate the issue to gather information regarding the issue that is important for the Security Team to investigate further, and also check what services are affected, Then if I see that the issue could have signifanct impact I would immideatly contact Higher Ups to ensure that they are aware of the issue and ready to immediatly came up with a resolution, Lastly is I continue to Monitor and gather information while telling the report that the issue is being treadted with the outmost urgency"
+          }
           readOnly
         ></textarea>
       </div>
