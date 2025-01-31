@@ -27,7 +27,9 @@ export default function Home() {
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={""}
+          value={
+            " I used it before Image CDN is implemented in the netlify and now i like that i could use CDN inside netlify for free and its now very compatible with NEXT.js, I think the freature that impress me the most is that Netlify automatically handles the scaling needed for the backend"
+          }
           readOnly
         ></textarea>
       </div>
@@ -77,7 +79,9 @@ Help train and onboard new support teammates
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={""}
+          value={
+            "I think the two major challenges around DNS configuration is first for the customer to understand how DNS configuration work they might be confuse for setiing up their DNS, mistakingly inputing a different records, like they might mistakenly set up a CNAME record instead of A Record making their site inaccessable, they might struggle to understand on how this records interact leading to misconfigurations in the DNS set-up process, Second is the cusotmer might expect the DNS settings to update instantly leading them to believe they misconfigured the DNS, not realizing that DNS changes can take upto a few minutes to 48 hours, They might also think their website is unsafe due to the SSL certificate delay "
+          }
           readOnly
         ></textarea>
       </div>
@@ -95,7 +99,9 @@ Help train and onboard new support teammates
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={""}
+          value={
+            "The information is very limited,the error code is not enough to troubleshoot the problem, I would contact the customer to clarify the issue even more and even guiding them on how to gather more info regarding the said error, I would also ask about their frameworks and dependencies version a mismatch version may be the reason for an error, the customer might have recently updated or add a new package which inturn conflict with the current framework and dependency,I might also check if his code version is matched with the company latest code version "
+          }
           readOnly
         ></textarea>
       </div>
