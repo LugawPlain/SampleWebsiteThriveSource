@@ -117,7 +117,14 @@ Help train and onboard new support teammates
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={""}
+          value={`Make a netlify.toml file 
+[[redirects]]
+from = "/netlify/:anything"
+to = "https://www.google.com/search?q=anything"
+status = 301
+force = true
+this forces the page using 301 htpp to redirect to a google search query also assigning the froce value to true ensures that the redirects happen even if route name exist
+`}
           readOnly
         ></textarea>
       </div>

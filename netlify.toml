@@ -1,8 +1,8 @@
-
+# it shows content from proxysample page instead of the contents inside sample page
 [[redirects]]
-  from = "/netlify/:anything"
-  to = "https://www.google.com/search?q=anything"
-  status = 301
+  from = "/sample"
+  to = "/proxysample"
+  status = 200
   force = true
 
 
