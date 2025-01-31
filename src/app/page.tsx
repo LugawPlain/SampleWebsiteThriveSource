@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="h-full w-1/2 mx-auto font-serif">
@@ -119,8 +116,8 @@ Help train and onboard new support teammates
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
           value={`Make a netlify.toml file 
 [[redirects]]
-from = "/netlify/:anything"
-to = "https://www.google.com/search?q=anything"
+from = /netlify/:anything
+to = https://www.google.com/search?q=anything
 status = 301
 force = true
 this forces the page using 301 htpp to redirect to a google search query also assigning the froce value to true ensures that the redirects happen even if route name exist
@@ -131,12 +128,11 @@ this forces the page using 301 htpp to redirect to a google search query also as
 
       <div className="mt-8 bg-white rounded-xl shadow-[15px_15px_30px_#bebebe,_-15px_-15px_30px_#ffffff] border-black px-8 py-4 ">
         <h1 className="text-center">
-          {" "}
           Please attempt to deploy a function on our service. This need not be
-          complicated. It could be "Hello World". Note that failure to deploy is
-          not failing the exercise! Whether you have trouble or not, please
-          describe what you experienced and how you attempted to troubleshoot
-          any issues you encountered.
+          complicated. It could be &quot;Hello World&quot;. Note that failure to
+          deploy is not failing the exercise! Whether you have trouble or not,
+          please describe what you experienced and how you attempted to
+          troubleshoot any issues you encountered.
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
