@@ -11,7 +11,7 @@ export default function Home() {
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
           value={
-            " I made this using languages such as HTML,CSS, and JavaScript, with Next.js as Framework, and also Tailwind as an extension of CSS"
+            "I made this using languages such as HTML, CSS, and JavaScript, with Next.js as the framework and Tailwind as an extension of CSS. I also used the Netlify CLI to develop and build the site locally. One challenge I experienced is that after deployment, it throws an error saying 'Page Not Found' and does not load my files, even though there are no errors and my files are visible in the build and deployment logs. The solution I implemented involved making changes to the netlify.toml file, moving my project outside of OneDrive, deleting the .next directory, and rebuilding the website."
           }
           readOnly
         ></textarea>
@@ -25,7 +25,7 @@ export default function Home() {
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
           value={
-            " I used it before Image CDN is implemented in the netlify and now i like that i could use CDN inside netlify for free and its now very compatible with NEXT.js, I think the freature that impress me the most is that Netlify automatically handles the scaling needed for the backend"
+            " I used Netlify before Image CDN is implemented, and now i like that I canuse CDN within netlify for free and it's now very compatible with Next.js, I think the feature that impress me the most is how Netlify automatically handles the scaling needed for the backend"
           }
           readOnly
         ></textarea>
@@ -63,7 +63,7 @@ Help train and onboard new support teammates
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={`One of documentation I think is well done is Tailwind CSS https://tailwindcss.com/docs I think the design look good while keeping it informative, They also showcase what each styling utility would look like in the documentation and also the search function is also very easy to use with a easy accessable keyboard shortcut
+          value={`One of the documentations I think is well done is Tailwind CSS's (https://tailwindcss.com/docs). I think the design looks good while remaining informative. They also showcase what each styling utility would look like directly in the documentation. Additionally, the search function is very easy to use, with an accessible keyboard shortcut
           `}
           readOnly
         ></textarea>
@@ -77,7 +77,7 @@ Help train and onboard new support teammates
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
           value={
-            "I think the two major challenges around DNS configuration is first for the customer to understand how DNS configuration work they might be confuse for setiing up their DNS, mistakingly inputing a different records, like they might mistakenly set up a CNAME record instead of A Record making their site inaccessable, they might struggle to understand on how this records interact leading to misconfigurations in the DNS set-up process, Second is the cusotmer might expect the DNS settings to update instantly leading them to believe they misconfigured the DNS, not realizing that DNS changes can take upto a few minutes to 48 hours, They might also think their website is unsafe due to the SSL certificate delay "
+            "I think the two major challenges around DNS configuration are, first, that customers might struggle to understand how DNS configuration works, leading to confusion during setup. They could mistakenly input incorrect records, such as setting up a CNAME record instead of an A record, which can make their site inaccessible. Additionally, they might find it difficult to grasp how these records interact, resulting in misconfigurations in the DNS setup process. Second, customers might expect DNS settings to update instantly, leading them to believe they misconfigured the DNS when changes don’t appear immediately. They may not realize that DNS changes can take anywhere from a few minutes to 48 hours to propagate. This delay, along with the time it takes for SSL certificates to be issued, might also make them think their website is unsafe"
           }
           readOnly
         ></textarea>
@@ -97,7 +97,7 @@ Help train and onboard new support teammates
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
           value={
-            "The information is very limited,the error code is not enough to troubleshoot the problem, I would contact the customer to clarify the issue even more and even guiding them on how to gather more info regarding the said error, I would also ask about their frameworks and dependencies version a mismatch version may be the reason for an error, the customer might have recently updated or add a new package which inturn conflict with the current framework and dependency,I might also check if his code version is matched with the company latest code version "
+            "The information provided is very limited, and the error code alone is not enough to troubleshoot the problem effectively. I would contact the customer to clarify the issue further and guide them on how to gather more details about the error. I would also ask about their framework and dependency versions, as a version mismatch could be the reason for the error. For instance, the customer might have recently updated or added a new package, which could conflict with the current framework and dependencies. Additionally, I would check if their code version matches the company’s latest code version, as discrepancies there could also lead to issues"
           }
           readOnly
         ></textarea>
@@ -120,9 +120,8 @@ from = /netlify/:anything
 to = https://www.google.com/search?q=anything
 status = 301
 force = true
-this forces the page using 301 htpp to redirect to a google search query also assigning the froce value to true ensures that the redirects happen even if route name exist
-
-I made a simple proxy redirect that rewrite the page from /sample to /proxysample
+Using 301 htpp forces the pageto redirect to a google search query also assigning the force value to true ensures it redirects the page even if the route name exist
+I made a simple proxy redirect that rewrite the page from https://assessment-website.netlify.app/sample to https://assessment-website.netlify.app/proxysample
 `}
           readOnly
         ></textarea>
@@ -138,9 +137,9 @@ I made a simple proxy redirect that rewrite the page from /sample to /proxysampl
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={
-            "Theres not much of a issue i encouter making a function to netlify since after prompting to create a function netlify already provided a simpel hello world function for me to use"
-          }
+          value={`There isn’t much of an issue I encountered when creating a function in Netlify. After prompting to create a function, Netlify already provided a simple 'Hello World' function for me to use.
+The function is accessible at the designated endpoint.
+https://assessment-website.netlify.app/.netlify/functions/hello-world`}
           readOnly
         ></textarea>
       </div>
@@ -161,7 +160,7 @@ I made a simple proxy redirect that rewrite the page from /sample to /proxysampl
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
           value={
-            "First I would respond and acknowledge the report and the reporter regarding the issue to ensure that the report is heard and being taken care of, SEcondly i would investigate the issue to gather information regarding the issue that is important for the Security Team to investigate further, and also check what services are affected, Then if I see that the issue could have signifanct impact I would immideatly contact Higher Ups to ensure that they are aware of the issue and ready to immediatly came up with a resolution, Lastly is I continue to Monitor and gather information while telling the report that the issue is being treadted with the outmost urgency"
+            "First, I would respond to and acknowledge the report and the reporter regarding the issue to ensure that the report is heard and is being taken care of. Secondly, I would investigate the issue to gather important information for the Security Team to investigate further, including checking which services are affected. Then, if I determine that the issue could have a significant impact, I would immediately contact higher-ups to ensure they are aware of the issue and ready to come up with a resolution promptly. Lastly, I would continue to monitor and gather information while informing the reporter that the issue is being treated with the utmost urgency"
           }
           readOnly
         ></textarea>
