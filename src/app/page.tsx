@@ -121,6 +121,8 @@ to = https://www.google.com/search?q=anything
 status = 301
 force = true
 this forces the page using 301 htpp to redirect to a google search query also assigning the froce value to true ensures that the redirects happen even if route name exist
+
+I made a simple proxy redirect that rewrite the page from /sample to /proxysample
 `}
           readOnly
         ></textarea>
@@ -129,21 +131,22 @@ this forces the page using 301 htpp to redirect to a google search query also as
       <div className="mt-8 bg-white rounded-xl shadow-[15px_15px_30px_#bebebe,_-15px_-15px_30px_#ffffff] border-black px-8 py-4 ">
         <h1 className="text-center">
           Please attempt to deploy a function on our service. This need not be
-          complicated. It could be &quot;Hello World&quot;. Note that failure to
+          complicated. It could be Hello World&quot;. Note that failure to
           deploy is not failing the exercise! Whether you have trouble or not,
           please describe what you experienced and how you attempted to
           troubleshoot any issues you encountered.
         </h1>
         <textarea
           className="my-2 w-full h-40 text-justify border resize-none rounded-lg focus:outline-blue-500 p-2 text-sm text-slate-700 "
-          value={""}
+          value={
+            "Theres not much of a issue i encouter making a function to netlify since after prompting to create a function netlify already provided a simpel hello world function for me to use"
+          }
           readOnly
         ></textarea>
       </div>
 
       <div className="mt-8 bg-white rounded-xl shadow-[15px_15px_30px_#bebebe,_-15px_-15px_30px_#ffffff] border-black px-8 py-4 ">
         <h1 className="text-center">
-          {" "}
           We understand you don't know anything about our internal procedures at
           this stage, but we want you to explain at a high level how you'd react
           to this situation: You receive a report of a severe security issue on
